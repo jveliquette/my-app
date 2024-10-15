@@ -4,7 +4,7 @@
   height: 100%;
   top: 0;
   left: 0;
-  z-index: -1; /* Ensure the particles stay behind content */
+  z-index: -1;
 }
 
 /* HERO SECTION */
@@ -24,11 +24,11 @@
 }
 
 .socials a:hover {
-  color: #007bff;  /* Example hover color */
+  color: #007bff;
 }
 
 .socials svg {
-  width: 2em;  /* Adjust size if needed */
+  width: 2em;
   height: 2em;
 }
 
@@ -49,26 +49,26 @@
 }
 
 .skill-box {
-  background-color: #0000003d; /* Dark box color */
+  background-color: #0000003d;
   border-radius: 10px;
   padding: 20px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .skill-box:hover {
-  transform: translateY(-10px); /* Lift effect on hover */
-  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.53); /* Stronger shadow on hover */
+  transform: translateY(-10px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.53);
 }
 
 .skill-icon {
-  width: 48px; /* Adjust the size to match your preference */
+  width: 48px;
   height: 48px;
 }
 
 .skill-box p {
   margin-top: 10px;
-  font-size: 1.1rem;
+  font-size: 1.35rem;
   font-weight: 600;
   color: #fff;
 }
